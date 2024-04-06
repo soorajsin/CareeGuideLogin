@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.reg {
+  width: 120ppx;
+  margin: 100px auto;
+}
+.reg .regCon {
+  width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  padding: 30px;
+}
+.reg .regCon:hover {
+  box-shadow: 0 0 10px;
+}
+
+.reg .regCon .form {
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.reg .regCon .form h1 {
+  word-spacing: 75px;
+}
+
+.reg .regCon .form label {
+  font-size: 30px;
+}
+
+.reg .regCon .form input {
+  width: 450px;
+  font-size: 30px;
+  padding-left: 10px;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.reg .regCon .form button {
+  width: 465px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(53, 86, 194);
+  height: 40px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.reg .regCon .form button:focus {
+  background-color: rgb(71, 175, 118);
+}
+
+.reg .regCon .form p {
+  font-size: 20px;
+}
